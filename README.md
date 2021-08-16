@@ -1,2 +1,3 @@
 # tjcss
-TJCSS is very simple css framework
+
+TJCSS is very simple css library
