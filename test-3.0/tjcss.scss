@@ -790,6 +790,10 @@
   display: inline-block;
 }
 
+.d-grid {
+  display: grid;
+}
+
 /* Flexbox */
 
 .jsc-center {
@@ -908,7 +912,7 @@
 
 /* Buttons */
 
-[role="button"]{
+[role='button'] {
   cursor: pointer;
 }
 
@@ -3259,7 +3263,7 @@ progress {
   overflow-y: hidden;
 }
 
-.overflow-x-visible	{
+.overflow-x-visible {
   overflow-x: visible;
 }
 
@@ -3305,4 +3309,28 @@ progress {
 
 .z-index-auto {
   z-index: auto;
+}
+
+/* Grid system */
+
+/* Grid Template Columns */
+
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.grid-cols-5 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
 }
