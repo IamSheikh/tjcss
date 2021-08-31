@@ -779,6 +779,11 @@
   display: inline-block;
 }
 
+.d-grid {
+  display: -ms-grid;
+  display: grid;
+}
+
 /* Flexbox */
 .jsc-center {
   -webkit-box-pack: center;
@@ -926,7 +931,7 @@
 }
 
 /* Buttons */
-[role="button"] {
+[role='button'] {
   cursor: pointer;
 }
 
@@ -3368,5 +3373,32 @@ progress {
 
 .z-index-auto {
   z-index: auto;
+}
+
+/* Grid system */
+/* Grid Template Columns */
+.grid-cols-1 {
+  -ms-grid-columns: (minmax(0, 1fr))[1];
+      grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-2 {
+  -ms-grid-columns: (minmax(0, 1fr))[2];
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-cols-3 {
+  -ms-grid-columns: (minmax(0, 1fr))[3];
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-cols-4 {
+  -ms-grid-columns: (minmax(0, 1fr))[4];
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.grid-cols-5 {
+  -ms-grid-columns: (minmax(0, 1fr))[5];
+      grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 /*# sourceMappingURL=tjcss.css.map */
