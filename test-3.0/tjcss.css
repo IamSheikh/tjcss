@@ -6,7 +6,7 @@
   Version: 2.0
   Author: Sheikh Taha Jameel
 */
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -766,8 +766,6 @@
 }
 
 .d-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
 
@@ -780,32 +778,24 @@
 }
 
 .d-grid {
-  display: -ms-grid;
   display: grid;
 }
 
 /* Flexbox */
 .jsc-center {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 
 .jsc-flexs {
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  justify-content: flex-start;
 }
 
 .jsc-flexe {
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 .jss-center {
-  -ms-grid-column-align: center;
-      justify-self: center;
+  justify-self: center;
 }
 
 .jss-flexs {
@@ -817,21 +807,15 @@
 }
 
 .ali-center {
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
 }
 
 .ali-flexs {
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  align-items: flex-start;
 }
 
 .ali-flexe {
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  align-items: flex-end;
 }
 
 .fl-right {
@@ -843,66 +827,47 @@
 }
 
 .fs-1 {
-  -ms-flex-negative: 1;
-      flex-shrink: 1;
+  flex-shrink: 1;
 }
 
 .fs-2 {
-  -ms-flex-negative: 2;
-      flex-shrink: 2;
+  flex-shrink: 2;
 }
 
 .fs-3 {
-  -ms-flex-negative: 3;
-      flex-shrink: 3;
+  flex-shrink: 3;
 }
 
 .fs-4 {
-  -ms-flex-negative: 4;
-      flex-shrink: 4;
+  flex-shrink: 4;
 }
 
 .fs-5 {
-  -ms-flex-negative: 5;
-      flex-shrink: 5;
+  flex-shrink: 5;
 }
 
 .fwr-w {
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .fwr-n {
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  flex-wrap: nowrap;
 }
 
 .fd-row {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  flex-direction: row;
 }
 
 .fd-rowr {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
+  flex-direction: row-reverse;
 }
 
 .fd-col {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .fd-colr {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
+  flex-direction: column-reverse;
 }
 
 /* Z index */
@@ -2108,7 +2073,6 @@ h1 {
     font-size: 2.5rem;
   }
 }
-
 .h2,
 h2 {
   font-size: calc(1.325rem + 0.9vw);
@@ -2120,7 +2084,6 @@ h2 {
     font-size: 2rem;
   }
 }
-
 .h3,
 h3 {
   font-size: calc(1.3rem + 0.6vw);
@@ -2132,7 +2095,6 @@ h3 {
     font-size: 1.75rem;
   }
 }
-
 .h4,
 h4 {
   font-size: calc(1.275rem + 0.3vw);
@@ -2144,7 +2106,6 @@ h4 {
     font-size: 1.5rem;
   }
 }
-
 .h5,
 h5 {
   font-size: 1.25rem;
@@ -2427,7 +2388,6 @@ legend {
     font-size: 1.5rem;
   }
 }
-
 legend + * {
   clear: left;
 }
@@ -2505,7 +2465,6 @@ progress {
     font-size: 5rem;
   }
 }
-
 .display-2 {
   font-size: calc(1.575rem + 3.9vw);
   font-weight: 300;
@@ -2517,7 +2476,6 @@ progress {
     font-size: 4.5rem;
   }
 }
-
 .display-3 {
   font-size: calc(1.525rem + 3.3vw);
   font-weight: 300;
@@ -2529,7 +2487,6 @@ progress {
     font-size: 4rem;
   }
 }
-
 .display-4 {
   font-size: calc(1.475rem + 2.7vw);
   font-weight: 300;
@@ -2541,7 +2498,6 @@ progress {
     font-size: 3.5rem;
   }
 }
-
 .display-5 {
   font-size: calc(1.425rem + 2.1vw);
   font-weight: 300;
@@ -2553,7 +2509,6 @@ progress {
     font-size: 3rem;
   }
 }
-
 .display-6 {
   font-size: calc(1.375rem + 1.5vw);
   font-weight: 300;
@@ -2565,7 +2520,6 @@ progress {
     font-size: 2.5rem;
   }
 }
-
 .list-unstyled {
   padding-left: 0;
   list-style: none;
@@ -2740,7 +2694,6 @@ progress {
 }
 
 .ps-sticky {
-  position: -webkit-sticky;
   position: sticky;
 }
 
@@ -3178,50 +3131,41 @@ progress {
 
 /* Object */
 .object-contain {
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 
 .object-cover {
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 .object-fill {
-  -o-object-fit: fill;
-     object-fit: fill;
+  object-fit: fill;
 }
 
 .object-none {
-  -o-object-fit: none;
-     object-fit: none;
+  object-fit: none;
 }
 
 .object-scale-down {
-  -o-object-fit: scale-down;
-     object-fit: scale-down;
+  object-fit: scale-down;
 }
 
 /* Box Decoration Break */
 .decoration-slice {
-  -webkit-box-decoration-break: slice;
-          box-decoration-break: slice;
+  box-decoration-break: slice;
 }
 
 .decoration-clone {
-  -webkit-box-decoration-break: clone;
-          box-decoration-break: clone;
+  box-decoration-break: clone;
 }
 
 /* Box Sizing */
 .box-s-border {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .box-s-content {
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
 }
 
 /* Clear */
@@ -3252,48 +3196,39 @@ progress {
 
 /* Object Position */
 .object-bottom {
-  -o-object-position: bottom;
-     object-position: bottom;
+  object-position: bottom;
 }
 
 .object-center {
-  -o-object-position: center;
-     object-position: center;
+  object-position: center;
 }
 
 .object-left {
-  -o-object-position: left;
-     object-position: left;
+  object-position: left;
 }
 
 .object-left-bottom {
-  -o-object-position: left bottom;
-     object-position: left bottom;
+  object-position: left bottom;
 }
 
 .object-left-top {
-  -o-object-position: left top;
-     object-position: left top;
+  object-position: left top;
 }
 
 .object-right {
-  -o-object-position: right;
-     object-position: right;
+  object-position: right;
 }
 
 .object-right-bottom {
-  -o-object-position: right bottom;
-     object-position: right bottom;
+  object-position: right bottom;
 }
 
 .object-right-top {
-  -o-object-position: right top;
-     object-position: right top;
+  object-position: right top;
 }
 
 .object-top {
-  -o-object-position: top;
-     object-position: top;
+  object-position: top;
 }
 
 /* Overflow */
@@ -3378,69 +3313,62 @@ progress {
 /* Grid system */
 /* Grid Template Columns */
 .grid-cols-1 {
-  -ms-grid-columns: (minmax(0, 1fr))[1];
-      grid-template-columns: repeat(1, minmax(0, 1fr));
+  grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 .grid-cols-2 {
-  -ms-grid-columns: (minmax(0, 1fr))[2];
-      grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .grid-cols-3 {
-  -ms-grid-columns: (minmax(0, 1fr))[3];
-      grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .grid-cols-4 {
-  -ms-grid-columns: (minmax(0, 1fr))[4];
-      grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .grid-cols-5 {
-  -ms-grid-columns: (minmax(0, 1fr))[5];
-      grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
 .grid-cols-6 {
-  -ms-grid-columns: (minmax(0, 1fr))[6];
-      grid-template-columns: repeat(6, minmax(0, 1fr));
+  grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 
 .grid-cols-7 {
-  -ms-grid-columns: (minmax(0, 1fr))[7];
-      grid-template-columns: repeat(7, minmax(0, 1fr));
+  grid-template-columns: repeat(7, minmax(0, 1fr));
 }
 
 .grid-cols-8 {
-  -ms-grid-columns: (minmax(0, 1fr))[8];
-      grid-template-columns: repeat(8, minmax(0, 1fr));
+  grid-template-columns: repeat(8, minmax(0, 1fr));
 }
 
 .grid-cols-9 {
-  -ms-grid-columns: (minmax(0, 1fr))[9];
-      grid-template-columns: repeat(9, minmax(0, 1fr));
+  grid-template-columns: repeat(9, minmax(0, 1fr));
 }
 
 .grid-cols-10 {
-  -ms-grid-columns: (minmax(0, 1fr))[10];
-      grid-template-columns: repeat(10, minmax(0, 1fr));
+  grid-template-columns: repeat(10, minmax(0, 1fr));
 }
 
 .grid-cols-11 {
-  -ms-grid-columns: (minmax(0, 1fr))[11];
-      grid-template-columns: repeat(11, minmax(0, 1fr));
+  grid-template-columns: repeat(11, minmax(0, 1fr));
 }
 
 .grid-cols-12 {
-  -ms-grid-columns: (minmax(0, 1fr))[12];
-      grid-template-columns: repeat(12, minmax(0, 1fr));
+  grid-template-columns: repeat(12, minmax(0, 1fr));
 }
 
 .grid-cols-none {
-  -ms-grid-columns: none;
-      grid-template-columns: none;
+  grid-template-columns: none;
 }
 
 /* Grid Column Start / End */
-/*# sourceMappingURL=tjcss.css.map */
+.col-auto {
+  grid-column: auto;
+}
+
+.col-span-1 {
+  grid-column: 1;
+}
