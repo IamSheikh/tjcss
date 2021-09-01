@@ -3347,7 +3347,6 @@ progress {
   grid-template-columns: repeat(8, minmax(0, 1fr));
 }
 
-
 .grid-cols-9 {
   grid-template-columns: repeat(9, minmax(0, 1fr));
 }
@@ -3367,3 +3366,5 @@ progress {
 .grid-cols-none {
   grid-template-columns: none;
 }
+
+/* Grid Column Start / End */
