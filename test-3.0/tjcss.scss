@@ -4502,3 +4502,13 @@ progress {
 .object-top {
   object-position: top;
 }
+
+/* Text Transform */
+
+.text-upper {
+  text-transform: uppercase;
+}
+
+.text-lower {
+  text-transform: lowercase;
+}
