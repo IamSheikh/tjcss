@@ -1,0 +1,10 @@
+.object-contain {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.object-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+/*# sourceMappingURL=4.0.css.map */
