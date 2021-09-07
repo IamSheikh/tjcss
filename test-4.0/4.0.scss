@@ -1,5 +1,9 @@
 /* Object Fit */
 
+html {
+  scroll-behavior: smooth;
+}
+
 .object-contain {
   object-fit: contain;
 }
