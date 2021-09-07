@@ -99,3 +99,17 @@
 .whitespace-pre-wrap {
   white-space: pre-wrap;
 }
+
+/* Word Break */
+
+.wb-normal {
+  word-wrap: normal;
+}
+
+.wb-words {
+  overflow-wrap: break-word;
+}
+
+.wb-all {
+  word-wrap: break-all;
+}
