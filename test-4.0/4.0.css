@@ -40,4 +40,17 @@
 .clear-none {
   clear: none;
 }
+
+/* Text Decoration */
+.text-underline {
+  text-decoration: underline;
+}
+
+.text-line-through {
+  text-decoration: line-through;
+}
+
+.text-underline-none {
+  text-decoration: none;
+}
 /*# sourceMappingURL=4.0.css.map */
