@@ -6,7 +6,7 @@
   Version: 2.0
   Author: Sheikh Taha Jameel
 */
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -791,25 +791,25 @@ html {
 /* Flexbox */
 .jsc-center {
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .jsc-flexs {
   -webkit-box-pack: start;
-  -ms-flex-pack: start;
-  justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
 }
 
 .jsc-flexe {
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .jss-center {
   -ms-grid-column-align: center;
-  justify-self: center;
+      justify-self: center;
 }
 
 .jss-flexs {
@@ -822,20 +822,20 @@ html {
 
 .ali-center {
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .ali-flexs {
   -webkit-box-align: start;
-  -ms-flex-align: start;
-  align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .ali-flexe {
   -webkit-box-align: end;
-  -ms-flex-align: end;
-  align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 
 .fl-right {
@@ -848,65 +848,65 @@ html {
 
 .fs-1 {
   -ms-flex-negative: 1;
-  flex-shrink: 1;
+      flex-shrink: 1;
 }
 
 .fs-2 {
   -ms-flex-negative: 2;
-  flex-shrink: 2;
+      flex-shrink: 2;
 }
 
 .fs-3 {
   -ms-flex-negative: 3;
-  flex-shrink: 3;
+      flex-shrink: 3;
 }
 
 .fs-4 {
   -ms-flex-negative: 4;
-  flex-shrink: 4;
+      flex-shrink: 4;
 }
 
 .fs-5 {
   -ms-flex-negative: 5;
-  flex-shrink: 5;
+      flex-shrink: 5;
 }
 
 .fwr-w {
   -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .fwr-n {
   -ms-flex-wrap: nowrap;
-  flex-wrap: nowrap;
+      flex-wrap: nowrap;
 }
 
 .fd-row {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-  -ms-flex-direction: row;
-  flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .fd-rowr {
   -webkit-box-orient: horizontal;
   -webkit-box-direction: reverse;
-  -ms-flex-direction: row-reverse;
-  flex-direction: row-reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
 }
 
 .fd-col {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .fd-colr {
   -webkit-box-orient: vertical;
   -webkit-box-direction: reverse;
-  -ms-flex-direction: column-reverse;
-  flex-direction: column-reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
 }
 
 /* Z index */
@@ -3187,49 +3187,49 @@ progress {
 /* Object */
 .object-contain {
   -o-object-fit: contain;
-  object-fit: contain;
+     object-fit: contain;
 }
 
 .object-cover {
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .object-fill {
   -o-object-fit: fill;
-  object-fit: fill;
+     object-fit: fill;
 }
 
 .object-none {
   -o-object-fit: none;
-  object-fit: none;
+     object-fit: none;
 }
 
 .object-scale-down {
   -o-object-fit: scale-down;
-  object-fit: scale-down;
+     object-fit: scale-down;
 }
 
 /* Box Decoration Break */
 .decoration-slice {
   -webkit-box-decoration-break: slice;
-  box-decoration-break: slice;
+          box-decoration-break: slice;
 }
 
 .decoration-clone {
   -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
+          box-decoration-break: clone;
 }
 
 /* Box Sizing */
 .box-s-border {
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 .box-s-content {
   -webkit-box-sizing: content-box;
-  box-sizing: content-box;
+          box-sizing: content-box;
 }
 
 /* Clear */
@@ -3261,47 +3261,47 @@ progress {
 /* Object Position */
 .object-bottom {
   -o-object-position: bottom;
-  object-position: bottom;
+     object-position: bottom;
 }
 
 .object-center {
   -o-object-position: center;
-  object-position: center;
+     object-position: center;
 }
 
 .object-left {
   -o-object-position: left;
-  object-position: left;
+     object-position: left;
 }
 
 .object-left-bottom {
   -o-object-position: left bottom;
-  object-position: left bottom;
+     object-position: left bottom;
 }
 
 .object-left-top {
   -o-object-position: left top;
-  object-position: left top;
+     object-position: left top;
 }
 
 .object-right {
   -o-object-position: right;
-  object-position: right;
+     object-position: right;
 }
 
 .object-right-bottom {
   -o-object-position: right bottom;
-  object-position: right bottom;
+     object-position: right bottom;
 }
 
 .object-right-top {
   -o-object-position: right top;
-  object-position: right top;
+     object-position: right top;
 }
 
 .object-top {
   -o-object-position: top;
-  object-position: top;
+     object-position: top;
 }
 
 /* Overflow */
@@ -3386,68 +3386,68 @@ progress {
 /* Grid system */
 /* Grid Template Columns */
 .grid-cols-1 {
-  -ms-grid-columns: (minmax(0, 1fr));
-  grid-template-columns: repeat(1, minmax(0, 1fr));
+  -ms-grid-columns: (minmax(0, 1fr))[1];
+      grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 .grid-cols-2 {
-  -ms-grid-columns: (minmax(0, 1fr));
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  -ms-grid-columns: (minmax(0, 1fr))[2];
+      grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .grid-cols-3 {
-  -ms-grid-columns: (minmax(0, 1fr));
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  -ms-grid-columns: (minmax(0, 1fr))[3];
+      grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .grid-cols-4 {
-  -ms-grid-columns: (minmax(0, 1fr));
-  grid-template-columns: repeat(4, minmax(0, 1fr));
+  -ms-grid-columns: (minmax(0, 1fr))[4];
+      grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 
 .grid-cols-5 {
-  -ms-grid-columns: (minmax(0, 1fr));
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  -ms-grid-columns: (minmax(0, 1fr))[5];
+      grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
 .grid-cols-6 {
-  -ms-grid-columns: (minmax(0, 1fr));
-  grid-template-columns: repeat(6, minmax(0, 1fr));
+  -ms-grid-columns: (minmax(0, 1fr))[6];
+      grid-template-columns: repeat(6, minmax(0, 1fr));
 }
 
 .grid-cols-7 {
-  -ms-grid-columns: (minmax(0, 1fr));
-  grid-template-columns: repeat(7, minmax(0, 1fr));
+  -ms-grid-columns: (minmax(0, 1fr))[7];
+      grid-template-columns: repeat(7, minmax(0, 1fr));
 }
 
 .grid-cols-8 {
-  -ms-grid-columns: (minmax(0, 1fr));
-  grid-template-columns: repeat(8, minmax(0, 1fr));
+  -ms-grid-columns: (minmax(0, 1fr))[8];
+      grid-template-columns: repeat(8, minmax(0, 1fr));
 }
 
 .grid-cols-9 {
-  -ms-grid-columns: (minmax(0, 1fr));
-  grid-template-columns: repeat(9, minmax(0, 1fr));
+  -ms-grid-columns: (minmax(0, 1fr))[9];
+      grid-template-columns: repeat(9, minmax(0, 1fr));
 }
 
 .grid-cols-10 {
-  -ms-grid-columns: (minmax(0, 1fr));
-  grid-template-columns: repeat(10, minmax(0, 1fr));
+  -ms-grid-columns: (minmax(0, 1fr))[10];
+      grid-template-columns: repeat(10, minmax(0, 1fr));
 }
 
 .grid-cols-11 {
-  -ms-grid-columns: (minmax(0, 1fr));
-  grid-template-columns: repeat(11, minmax(0, 1fr));
+  -ms-grid-columns: (minmax(0, 1fr))[11];
+      grid-template-columns: repeat(11, minmax(0, 1fr));
 }
 
 .grid-cols-12 {
-  -ms-grid-columns: (minmax(0, 1fr));
-  grid-template-columns: repeat(12, minmax(0, 1fr));
+  -ms-grid-columns: (minmax(0, 1fr))[12];
+      grid-template-columns: repeat(12, minmax(0, 1fr));
 }
 
 .grid-cols-none {
   -ms-grid-columns: none;
-  grid-template-columns: none;
+      grid-template-columns: none;
 }
 
 /* Grid Column Start / End */
@@ -3521,72 +3521,72 @@ progress {
 
 .col-start-1 {
   -ms-grid-column: 1;
-  grid-column-start: 1;
+      grid-column-start: 1;
 }
 
 .col-start-2 {
   -ms-grid-column: 2;
-  grid-column-start: 2;
+      grid-column-start: 2;
 }
 
 .col-start-3 {
   -ms-grid-column: 3;
-  grid-column-start: 3;
+      grid-column-start: 3;
 }
 
 .col-start-4 {
   -ms-grid-column: 4;
-  grid-column-start: 4;
+      grid-column-start: 4;
 }
 
 .col-start-5 {
   -ms-grid-column: 5;
-  grid-column-start: 5;
+      grid-column-start: 5;
 }
 
 .col-start-6 {
   -ms-grid-column: 6;
-  grid-column-start: 6;
+      grid-column-start: 6;
 }
 
 .col-start-7 {
   -ms-grid-column: 7;
-  grid-column-start: 7;
+      grid-column-start: 7;
 }
 
 .col-start-8 {
   -ms-grid-column: 8;
-  grid-column-start: 8;
+      grid-column-start: 8;
 }
 
 .col-start-9 {
   -ms-grid-column: 9;
-  grid-column-start: 9;
+      grid-column-start: 9;
 }
 
 .col-start-10 {
   -ms-grid-column: 10;
-  grid-column-start: 10;
+      grid-column-start: 10;
 }
 
 .col-start-11 {
   -ms-grid-column: 11;
-  grid-column-start: 11;
+      grid-column-start: 11;
 }
 
 .col-start-12 {
   -ms-grid-column: 12;
-  grid-column-start: 12;
+      grid-column-start: 12;
 }
 
 .col-start-13 {
   -ms-grid-column: 13;
-  grid-column-start: 13;
+      grid-column-start: 13;
 }
 
 .col-start-auto {
   -ms-grid-column: auto;
-  grid-column-start: auto;
+      grid-column-start: auto;
 }
 
 .col-end-1 {
@@ -3647,33 +3647,33 @@ progress {
 
 /* Grid Template Rows */
 .grid-row-1 {
-  -ms-grid-rows: (minmax(0, 1fr));
-  grid-template-rows: repeat(1, minmax(0, 1fr));
+  -ms-grid-rows: (minmax(0, 1fr))[1];
+      grid-template-rows: repeat(1, minmax(0, 1fr));
 }
 
 .grid-row-2 {
-  -ms-grid-rows: (minmax(0, 1fr));
-  grid-template-rows: repeat(2, minmax(0, 1fr));
+  -ms-grid-rows: (minmax(0, 1fr))[2];
+      grid-template-rows: repeat(2, minmax(0, 1fr));
 }
 
 .grid-row-3 {
-  -ms-grid-rows: (minmax(0, 1fr));
-  grid-template-rows: repeat(3, minmax(0, 1fr));
+  -ms-grid-rows: (minmax(0, 1fr))[3];
+      grid-template-rows: repeat(3, minmax(0, 1fr));
 }
 
 .grid-row-4 {
-  -ms-grid-rows: (minmax(0, 1fr));
-  grid-template-rows: repeat(4, minmax(0, 1fr));
+  -ms-grid-rows: (minmax(0, 1fr))[4];
+      grid-template-rows: repeat(4, minmax(0, 1fr));
 }
 
 .grid-row-5 {
-  -ms-grid-rows: (minmax(0, 1fr));
-  grid-template-rows: repeat(5, minmax(0, 1fr));
+  -ms-grid-rows: (minmax(0, 1fr))[5];
+      grid-template-rows: repeat(5, minmax(0, 1fr));
 }
 
 .grid-row-6 {
-  -ms-grid-rows: (minmax(0, 1fr));
-  grid-template-rows: repeat(6, minmax(0, 1fr));
+  -ms-grid-rows: (minmax(0, 1fr))[6];
+      grid-template-rows: repeat(6, minmax(0, 1fr));
 }
 
 /* Grid Row Start / End */
@@ -3711,42 +3711,42 @@ progress {
 
 .row-start-1 {
   -ms-grid-row: 1;
-  grid-row-start: 1;
+      grid-row-start: 1;
 }
 
 .row-start-2 {
   -ms-grid-row: 2;
-  grid-row-start: 2;
+      grid-row-start: 2;
 }
 
 .row-start-3 {
   -ms-grid-row: 3;
-  grid-row-start: 3;
+      grid-row-start: 3;
 }
 
 .row-start-4 {
   -ms-grid-row: 4;
-  grid-row-start: 4;
+      grid-row-start: 4;
 }
 
 .row-start-5 {
   -ms-grid-row: 5;
-  grid-row-start: 5;
+      grid-row-start: 5;
 }
 
 .row-start-6 {
   -ms-grid-row: 6;
-  grid-row-start: 6;
+      grid-row-start: 6;
 }
 
 .row-start-7 {
   -ms-grid-row: 7;
-  grid-row-start: 7;
+      grid-row-start: 7;
 }
 
 .row-start-auto {
   -ms-grid-row: auto;
-  grid-row-start: auto;
+      grid-row-start: auto;
 }
 
 .row-end-1 {
@@ -3979,177 +3979,177 @@ progress {
 
 .gap-x-0 {
   -webkit-column-gap: 0px;
-  column-gap: 0px;
+          column-gap: 0px;
 }
 
 .gap-x-1 {
   -webkit-column-gap: 0.25rem;
-  column-gap: 0.25rem;
+          column-gap: 0.25rem;
 }
 
 .gap-x-2 {
   -webkit-column-gap: 0.5rem;
-  column-gap: 0.5rem;
+          column-gap: 0.5rem;
 }
 
 .gap-x-3 {
   -webkit-column-gap: 0.75rem;
-  column-gap: 0.75rem;
+          column-gap: 0.75rem;
 }
 
 .gap-x-4 {
   -webkit-column-gap: 1rem;
-  column-gap: 1rem;
+          column-gap: 1rem;
 }
 
 .gap-x-5 {
   -webkit-column-gap: 1.25rem;
-  column-gap: 1.25rem;
+          column-gap: 1.25rem;
 }
 
 .gap-x-6 {
   -webkit-column-gap: 1.5rem;
-  column-gap: 1.5rem;
+          column-gap: 1.5rem;
 }
 
 .gap-x-7 {
   -webkit-column-gap: 1.75rem;
-  column-gap: 1.75rem;
+          column-gap: 1.75rem;
 }
 
 .gap-x-8 {
   -webkit-column-gap: 2rem;
-  column-gap: 2rem;
+          column-gap: 2rem;
 }
 
 .gap-x-9 {
   -webkit-column-gap: 2.25rem;
-  column-gap: 2.25rem;
+          column-gap: 2.25rem;
 }
 
 .gap-x-10 {
   -webkit-column-gap: 2.5rem;
-  column-gap: 2.5rem;
+          column-gap: 2.5rem;
 }
 
 .gap-x-11 {
   -webkit-column-gap: 2.75rem;
-  column-gap: 2.75rem;
+          column-gap: 2.75rem;
 }
 
 .gap-x-12 {
   -webkit-column-gap: 3rem;
-  column-gap: 3rem;
+          column-gap: 3rem;
 }
 
 .gap-x-14 {
   -webkit-column-gap: 3.5rem;
-  column-gap: 3.5rem;
+          column-gap: 3.5rem;
 }
 
 .gap-x-16 {
   -webkit-column-gap: 4rem;
-  column-gap: 4rem;
+          column-gap: 4rem;
 }
 
 .gap-x-20 {
   -webkit-column-gap: 5rem;
-  column-gap: 5rem;
+          column-gap: 5rem;
 }
 
 .gap-x-24 {
   -webkit-column-gap: 6rem;
-  column-gap: 6rem;
+          column-gap: 6rem;
 }
 
 .gap-x-28 {
   -webkit-column-gap: 7rem;
-  column-gap: 7rem;
+          column-gap: 7rem;
 }
 
 .gap-x-32 {
   -webkit-column-gap: 8rem;
-  column-gap: 8rem;
+          column-gap: 8rem;
 }
 
 .gap-x-36 {
   -webkit-column-gap: 9rem;
-  column-gap: 9rem;
+          column-gap: 9rem;
 }
 
 .gap-x-40 {
   -webkit-column-gap: 10rem;
-  column-gap: 10rem;
+          column-gap: 10rem;
 }
 
 .gap-x-44 {
   -webkit-column-gap: 11rem;
-  column-gap: 11rem;
+          column-gap: 11rem;
 }
 
 .gap-x-48 {
   -webkit-column-gap: 12rem;
-  column-gap: 12rem;
+          column-gap: 12rem;
 }
 
 .gap-x-52 {
   -webkit-column-gap: 13rem;
-  column-gap: 13rem;
+          column-gap: 13rem;
 }
 
 .gap-x-56 {
   -webkit-column-gap: 14rem;
-  column-gap: 14rem;
+          column-gap: 14rem;
 }
 
 .gap-x-60 {
   -webkit-column-gap: 15rem;
-  column-gap: 15rem;
+          column-gap: 15rem;
 }
 
 .gap-x-64 {
   -webkit-column-gap: 16rem;
-  column-gap: 16rem;
+          column-gap: 16rem;
 }
 
 .gap-x-72 {
   -webkit-column-gap: 18rem;
-  column-gap: 18rem;
+          column-gap: 18rem;
 }
 
 .gap-x-80 {
   -webkit-column-gap: 20rem;
-  column-gap: 20rem;
+          column-gap: 20rem;
 }
 
 .gap-x-96 {
   -webkit-column-gap: 24rem;
-  column-gap: 24rem;
+          column-gap: 24rem;
 }
 
 .gap-x-px {
   -webkit-column-gap: 1px;
-  column-gap: 1px;
+          column-gap: 1px;
 }
 
 .gap-x-0\.5 {
   -webkit-column-gap: 0.125rem;
-  column-gap: 0.125rem;
+          column-gap: 0.125rem;
 }
 
 .gap-x-1\.5 {
   -webkit-column-gap: 0.375rem;
-  column-gap: 0.375rem;
+          column-gap: 0.375rem;
 }
 
 .gap-x-2\.5 {
   -webkit-column-gap: 0.625rem;
-  column-gap: 0.625rem;
+          column-gap: 0.625rem;
 }
 
 .gap-x-3\.5 {
   -webkit-column-gap: 0.875rem;
-  column-gap: 0.875rem;
+          column-gap: 0.875rem;
 }
 
 .gap-y-0 {
@@ -4619,47 +4619,47 @@ progress {
 /* Object Position */
 .object-bottom {
   -o-object-position: bottom;
-  object-position: bottom;
+     object-position: bottom;
 }
 
 .object-center {
   -o-object-position: center;
-  object-position: center;
+     object-position: center;
 }
 
 .object-left {
   -o-object-position: left;
-  object-position: left;
+     object-position: left;
 }
 
 .object-left-bottom {
   -o-object-position: left bottom;
-  object-position: left bottom;
+     object-position: left bottom;
 }
 
 .object-left-top {
   -o-object-position: left top;
-  object-position: left top;
+     object-position: left top;
 }
 
 .object-right {
   -o-object-position: right;
-  object-position: right;
+     object-position: right;
 }
 
 .object-right-bottom {
   -o-object-position: right bottom;
-  object-position: right bottom;
+     object-position: right bottom;
 }
 
 .object-right-top {
   -o-object-position: right top;
-  object-position: right top;
+     object-position: right top;
 }
 
 .object-top {
   -o-object-position: top;
-  object-position: top;
+     object-position: top;
 }
 
 /* Text Transform */
@@ -4674,27 +4674,27 @@ progress {
 /* Object Fit */
 .object-contain {
   -o-object-fit: contain;
-  object-fit: contain;
+     object-fit: contain;
 }
 
 .object-cover {
   -o-object-fit: cover;
-  object-fit: cover;
+     object-fit: cover;
 }
 
 .object-fill {
   -o-object-fit: fill;
-  object-fit: fill;
+     object-fit: fill;
 }
 
 .object-none {
   -o-object-fit: none;
-  object-fit: none;
+     object-fit: none;
 }
 
 .object-scale-down {
   -o-object-fit: scale-down;
-  object-fit: scale-down;
+     object-fit: scale-down;
 }
 
 /* Clear */
@@ -4785,5 +4785,4 @@ progress {
 .wb-all {
   word-wrap: break-all;
 }
-
 /*# sourceMappingURL=tjcss.css.map */
